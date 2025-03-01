@@ -46,7 +46,7 @@ WildRydes.map = WildRydes.map || {};
         pronoun = unicorn.Gender === 'Male' ? 'his' : 'her';
         displayUpdate(unicorn.Name + ', in a ' + unicorn.Color + ' Car, is on ' + pronoun + ' way.');
         animateArrival(function animateCallback() {
-            displayUpdate(unicorn.Name + ' has arrived. Ride up!');
+            displayUpdate(unicorn.Name + 'has arrived. Ready to go!');
             WildRydes.map.unsetLocation();
             $('#request').prop('disabled', 'disabled');
             $('#request').text('Set Pickup');
